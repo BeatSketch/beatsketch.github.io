@@ -55,3 +55,25 @@ html {
 .content a {
     color: var(--col-primary);
 }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    color: var(--col-primary);
+    background-color: var(--col-back-accent);
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    display: block;
+    transition: background-color 0.5s, border-radius 0.5s;
+}
+
+.button:hover {
+    background-color: var(--col-back-hover);
+    border-radius: 15px;
+}

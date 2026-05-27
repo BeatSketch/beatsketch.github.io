@@ -1,4 +1,6 @@
 body {
     --col-primary: rgba(255, 255, 255);
     --col-back: rgba(20, 20, 20);
+    --col-back-accent: #4a4fba;
+    --col-back-hover: #1060ba;
 }
