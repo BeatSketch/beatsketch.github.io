@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BeatSketch | VR Beat Saber Map Maker</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://janishutz.com/css/side-by-side.css">
 
     <!-- FAVICON -->
     <link rel="icon" href="/favicon.ico">
@@ -30,10 +31,12 @@
 </head>
 
 <body>
-    <div class="header-container" style="background-image: url('assets/header.jpg');">
-        <span class="spacer"></span>
+    <div class="header-container">
+        <div class="header-logo-wrapper">
+            <img src="https://raw.githubusercontent.com/BeatSketch/.github/main/assets/logo-banner.jpg"
+                alt="BeatSketch Logo with BeatSketch written on it" class="header-logo">
+        </div>
         <div class="title-container">
-            <h1>BeatSketch</h1>
             <p>VR Beat Saber map maker that converts your physical movements into a Beat Saber map</p>
             <p style="font-size: 0.8rem; font-style: italic;">Project and Website very much WIP</p>
             <div class="flex-container">
@@ -43,7 +46,38 @@
         </div>
     </div>
     <div class="content">
-        Check out our repositories:
+        <div class="side-by-side">
+            <div class="side-by-side-item left">
+                <img src="https://raw.githubusercontent.com/BeatSketch/.github/main/assets/logo-banner.jpg"
+                    style="width: 100%;">
+            </div>
+            <div class="side-by-side-item right">
+                <h2>Launcher</h2>
+                <p>Configure your map, pick the song and more using our cross-platform launcher.
+                    It also handles all the machine learning that is needed for generating the blocks</p>
+            </div>
+        </div>
+        <div class="side-by-side">
+            <div class="side-by-side-item left">
+                <h2>Supports your VR headset</h2>
+                <p>Any VR headset that is supported by SteamVR is supported by BeatSketch.
+                    Simply connect it as you would to play BeatSaber</p>
+            </div>
+            <div class="side-by-side-item right">
+                <img src="https://raw.githubusercontent.com/BeatSketch/.github/main/assets/logo-banner.jpg"
+                    style="width: 100%;">
+            </div>
+        </div>
+        <div class="side-by-side">
+            <div class="side-by-side-item left">
+                <img src="https://raw.githubusercontent.com/BeatSketch/.github/main/assets/logo-banner.jpg"
+                    style="width: 100%;">
+            </div>
+            <div class="side-by-side-item right">
+                <h2>Easy to use</h2>
+                <p>A simple user interface to set up your map and our user guide help you get your map right - the first time</p>
+            </div>
+        </div>
         <ul>
             <li>
                 <a href="https://github.com/BeatSketch/BeatSketch" target="_blank">Main repository</a>
